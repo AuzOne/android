@@ -20,7 +20,7 @@
   <remote name="cm"
           fetch="https://github.com/CyanogenMod/" />
           
-  <remote name="ao"
+  <remote name="AuzOne"
           fetch="https://github.com/AuzOne/" />
           
   <remote name="TeamBliss-Devices"
