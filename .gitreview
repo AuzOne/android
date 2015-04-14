@@ -1,5 +1,0 @@
-[gerrit]
-host=android-armv7a-belalang-tempur@review.blissroms.com
-port=29418
-project=android.git
-defaultbranch=lp5.1
