@@ -81,6 +81,7 @@
   <project path="bionic" name="TeamBliss-LP/android_bionic" groups="pdk" revision="lp5.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
+  <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
@@ -278,7 +279,7 @@
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" />
+  <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" groups="pdk" />
   <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" />
   <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs" />
   <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" />
