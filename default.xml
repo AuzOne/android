@@ -7,10 +7,9 @@
            revision="refs/tags/android-5.1.0_r5" />
            
  <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
+           fetch=".." />
            
- <remote name="TeamBliss-LP"
+ <remote name="NamelessRom"
           fetch="https://github.com/NamelessRom/" />
 
   <remote name="TeamBliss-LP"
