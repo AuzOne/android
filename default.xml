@@ -4,63 +4,38 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.0_r5" 
-           sync-c="true"
-           sync-j="8" />
+           revision="refs/tags/android-5.1.0_r5" />
            
  <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
 
   <remote name="TeamBliss-LP"
-          fetch="https://github.com/TeamBliss-LP/"
-	  sync-c="true"
-          sync-j="8" />
+          fetch="https://github.com/TeamBliss-LP/" />
           
   <remote name="private"
-          fetch="ssh://git@github.com" 
-          sync-c="true"
-          sync-j="8" />
+          fetch="ssh://git@github.com" />
            
   <remote name="CyanogenMod"
-          fetch="https://github.com/CyanogenMod/" 
-          sync-c="true"
-          sync-j="8" />
+          fetch="https://github.com/CyanogenMod/" />
           
   <remote name="AuzOne"
-          fetch="https://github.com/AuzOne/" 
-          sync-c="true"
-          sync-j="8" />
+          fetch="https://github.com/AuzOne/" />
           
   <remote name="TeamBliss-Devices"
-          fetch="https://github.com/TeamBliss-Devices/" 
-          sync-c="true"
-          sync-j="8" />
+          fetch="https://github.com/TeamBliss-Devices/" />
           
   <remote name="TeamBliss"
-          fetch="https://github.com/TeamBliss/"
-          sync-c="true"
-          sync-j="8" />
+          fetch="https://github.com/TeamBliss/" />
 
   <remote name="tm"
-          fetch="https://github.com/TheMuppets/" 
-          sync-c="true"
-          sync-j="8" />
+          fetch="https://github.com/TheMuppets/" />
           
   <remote  name="Team-Validus"
-           fetch="https://github.com/Team-Validus/" 
-           sync-c="true"
-           sync-j="8" />
+           fetch="https://github.com/Team-Validus/" />
           
-  <remote name="VanirAOSP"
-          fetch="https://github.com/VanirAOSP/" 
-          sync-c="true"
-          sync-j="8" />
-  
   <remote name="lsd"
-          fetch="https://github.com/LiquidSmooth-Devices/" 
-          sync-c="true"
-          sync-j="8" />
+          fetch="https://github.com/LiquidSmooth-Devices/" />
           
   <remote name="bitbucket"      
           fetch="https://bitbucket.org/" />     
