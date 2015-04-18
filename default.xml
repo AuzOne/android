@@ -16,6 +16,11 @@
           fetch="https://github.com/TeamBliss-LP/"
 	  sync-c="true"
           sync-j="8" />
+          
+  <remote name="private"
+          fetch="ssh://git@github.com" 
+          sync-c="true"
+          sync-j="8" />
            
   <remote name="CyanogenMod"
           fetch="https://github.com/CyanogenMod/" 
@@ -58,10 +63,14 @@
           sync-j="8" />
         
   <remote name="SmokeyMcBong" 
-          fetch="https://.org/SmokeyMcBong/" />
+          fetch="https://.org/SmokeyMcBong/" 
+          sync-c="true"
+          sync-j="8" />
           
    <remote name="UBERTC" 
-          fetch="https://bitbucket.org/UBERTC/" />        
+          fetch="https://bitbucket.org/UBERTC/" 
+          sync-c="true"
+          sync-j="8" />        
           
   <default revision="refs/heads/cm-12.1"
            remote="github"
