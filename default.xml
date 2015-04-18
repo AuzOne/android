@@ -63,12 +63,14 @@
           sync-j="8" />
         
   <remote name="SmokeyMcBong" 
-          fetch="https://.org/SmokeyMcBong/" 
+          fetch="https://https://bitbucket.org/SmokeyMcBong/"
+          remote="SmokeyMcBong"
           sync-c="true"
           sync-j="8" />
           
    <remote name="UBERTC" 
           fetch="https://bitbucket.org/UBERTC/" 
+          remote="UBERTC"
           sync-c="true"
           sync-j="8" />        
           
