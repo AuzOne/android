@@ -61,18 +61,9 @@
           fetch="https://github.com/LiquidSmooth-Devices/" 
           sync-c="true"
           sync-j="8" />
-        
-  <remote name="SmokeyMcBong" 
-          fetch="https://https://bitbucket.org/SmokeyMcBong/"
-          remote="SmokeyMcBong"
-          sync-c="true"
-          sync-j="8" />
           
-   <remote name="UBERTC" 
-          fetch="https://bitbucket.org/UBERTC/" 
-          remote="UBERTC"
-          sync-c="true"
-          sync-j="8" />        
+  <remote name="bitbucket"      
+          fetch="https://bitbucket.org/" />     
           
   <default revision="refs/heads/cm-12.1"
            remote="github"
@@ -673,22 +664,22 @@
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="Team-Validus/arm-linux-androideabi-4.8" revision="lp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="Team-Validus/arm-linux-androideabi-4.9" revision="lp" /> 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" name="SmokeyMcBong/sm-arm-androideabi-5.0" revision="master" /> 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" name="SmokeyMcBong/sm-arm-androideabi-5.0" remote="bitbucket" revision="master" /> 
   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="Team-Validus/arm-eabi-4.10" revision="master" />  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="RobbieL811/Sabermod" revision="arm-eabi-4.9" /> 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-sm" name="SmokeyMcBong/sm-arm-eabi-5.0" revision="master" /> 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-sm" name="SmokeyMcBong/sm-arm-eabi-5.0" remote="bitbucket" revision="master" /> 
    <!-- LINARO ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="UBERTC/arm-linux-androideabi-4.8" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="UBERTC/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
 
   <!-- LINARO KERNEL TOOLCHAINS --> 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERTC/arm-eabi-4.8" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-linaro" name="UBERTC/arm-eabi-5.0" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-linaro" name="UBERTC/arm-eabi-5.0" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/linaro" name="AuzOne/linaro_toolchains_2015" revision="L5" />
   
 </manifest>
