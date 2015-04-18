@@ -18,9 +18,6 @@
           
   <remote name="private"
           fetch="ssh://git@github.com" />
-           
-  <remote name="CyanogenMod"
-          fetch="https://github.com/CyanogenMod/" />
           
   <remote name="AuzOne"
           fetch="https://github.com/AuzOne/" />
