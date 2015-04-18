@@ -10,14 +10,15 @@
            fetch=".." 
            review="review.cyanogenmod.org" />
            
+ <remote name="private"
+          fetch="ssh://git@github.com" />
+           
  <remote name="NamelessRom"
           fetch="https://github.com/NamelessRom/" />
 
   <remote name="TeamBliss-LP"
-          fetch="https://github.com/TeamBliss-LP/" />
-          
-  <remote name="private"
-          fetch="ssh://git@github.com" />
+          fetch="https://github.com/TeamBliss-LP/" 
+          review="review.blissroms.com" />
           
   <remote name="AuzOne"
           fetch="https://github.com/AuzOne/" />
