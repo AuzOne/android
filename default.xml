@@ -52,7 +52,7 @@
   </project>
 
   <project path="android" name="AuzOne/android" revision="lp5.1" />
-  <!--project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" /-->
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
  
   
 </manifest>
