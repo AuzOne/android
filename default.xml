@@ -630,7 +630,7 @@
   <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />       
  
   <!--Vendor Repos-->
-  <project path="vendor/bliss" name="TeamBliss-LP/android_vendor_bliss" revision="lp5.1" />    
+  <project path="vendor/bliss" name="AuzOne/android_vendor_bliss" revision="lp5.1" />    
   
   <!-- AuzOne --> 
   <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="lp5.1" />
