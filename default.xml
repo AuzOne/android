@@ -497,7 +497,7 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="TeamBliss-LP/android_packages_apps_LockClock" revision="lp5.1" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="TeamBliss-LP/android_packages_apps_Mms-caf" revision="lp5.1" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="AuzOne/packages_apps_Nfc" revision="lp5.1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <!--project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" /-->
