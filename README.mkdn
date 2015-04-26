@@ -4,10 +4,10 @@ Getting Started
 To get started with Android/BlissPop, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the BlissPop trees, use this command:
+To initialize your local repository using the AuzOne trees, use this command:
 
 
-    repo init -u https://github.com/TeamBliss-LP/android.git -b lp5.1
+    repo init -u https://github.com/AuzOne/android.git -b lp5.1
 
 Then to sync up:
 
@@ -35,11 +35,6 @@ please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization
 
 GERRIT
 ------
-review.blissroms.com
-
-If you would like to contribute to the blissrom project submit patches to:
-`review.blissroms.com`. Then head into the project and clone it locally make changes and push back to bliss review.
-
 HOW TO SUBMIT TO OUR GERRIT:
 
 First and foremost, setup your github with out Gerrit.
