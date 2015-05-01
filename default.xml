@@ -468,7 +468,7 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <!--project path="packages/apps/AudioFX" name="TeamBliss-LP/android_packages_apps_AudioFX" revision="lp5.1" /-->
-  <project path="packages/apps/AudioFX" name="AuzOne/android_packages_apps_AudioFX" revision="cm-12.1" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/BlissOTA" name="TeamBliss-LP/BlissOTA" revision="lp5.1" />
   <project path="packages/apps/Bluetooth" name="AuzOne/android_packages_apps_Bluetooth" revision="lp5.1" />
@@ -489,7 +489,7 @@
   <project path="packages/apps/ContactsCommon" name="TeamBliss-LP/android_packages_apps_ContactsCommon" revision="lp5.1" />
   <project path="packages/apps/DeskClock" name="TeamBliss-LP/android_packages_apps_DeskClock" revision="lp5.1" />
   <project path="packages/apps/Dialer" name="TeamBliss-LP/android_packages_apps_Dialer" revision="lp5.1" />
-  <project path="packages/apps/Eleven" name="AuzOne/android_packages_apps_Eleven" revision="cm-12.1" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" remote="aosp" />
@@ -514,7 +514,7 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/apps/Trebuchet" name="AuzOne/android_packages_apps_Trebuchet" revision="cm-12.1" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/BlissStats" name="TeamBliss-LP/android_packages_apps_RomStats" revision="lp5.0" />
