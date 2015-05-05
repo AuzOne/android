@@ -64,7 +64,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
-  <project path="development" name="TeamBliss-LP/android_development" groups="pdk-cw-fs" revision="lp5.1" />
+  <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
@@ -631,7 +631,8 @@
   <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />       
  
   <!--Vendor Repos-->
-  <project path="vendor/bliss" name="AuzOne/android_vendor_bliss" revision="lp5.1" />    
+  <project path="vendor/bliss" name="AuzOne/android_vendor_bliss" revision="lp5.1" /> 
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <!-- AuzOne --> 
   <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="lp5.1" />
