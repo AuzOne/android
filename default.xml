@@ -64,7 +64,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
-  <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" />
+  <project path="development" name="TeamBliss-LP/android_development" groups="pdk-cw-fs" revision="lp5.1" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
@@ -638,6 +638,7 @@
   <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="lp5.1" />
   
   <!--Additional Repos-->
+  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
   <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-12.1" />
   <project name="AuzOne/android_hardware_samsung" path="hardware/samsung" revision="cm-12.1" />
