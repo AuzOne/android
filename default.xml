@@ -47,7 +47,7 @@
            sync-c="true"
            sync-j="3" />
 
-  <project path="build" name="AuzOne/android_build" revision="lp5.1" >
+  <project path="build" name="TeamBliss-LP/android_build" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -55,7 +55,7 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="AuzOne/android_bionic" groups="pdk" revision="cm-12.1" />
+  <project path="bionic" name="TeamBliss-LP/android_bionic" groups="pdk" revision="lp5.1" />
   <project path="bootable/recovery" name="AuzOne/android_bootable_recovery" groups="pdk" revision="cm-12.1" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device" />
@@ -101,7 +101,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/bluetooth/bluedroid" name="AuzOne/android_external_bluetooth_bluedroid" groups="pdk" revision="cm-12.1" />
+  <project path="external/bluetooth/bluedroid" name="TeamBliss-LP/android_external_bluetooth_bluedroid" groups="pdk" revision="lp5.1" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
@@ -115,7 +115,6 @@
   <project path="external/chromium_org" name="AuzOne/android_external_chromium_org" revision="cm-12.1" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
-  <!--project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" /-->
   <project path="external/chromium_org/third_party/WebKit" name="AuzOne/android_external_chromium_org_third_party_WebKit" revision="cm-12.1" />
   <project path="external/chromium_org/third_party/angle" name="AuzOne/android_external_chromium_org_third_party_angle" revision="cm-12.1" />
   <project path="external/chromium_org/third_party/boringssl/src" name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" />
@@ -126,7 +125,6 @@
   <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" />
   <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" remote="aosp" />
   <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" remote="aosp" />
-  <!--project path="external/chromium_org/third_party/libjpeg_turbo" name="platform/external/chromium_org/third_party/libjpeg_turbo" remote="aosp" /-->
   <project path="external/chromium_org/third_party/libjpeg_turbo" name="AuzOne/android_external_chromium_org_third_party_libjpeg_turbo" revision="cm-12.1" />
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" remote="aosp" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" />
@@ -425,7 +423,7 @@
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio/default" name="AuzOne/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio/default" name="AuzOne/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1" />
   <project path="hardware/qcom/audio-caf/apq8084" name="AuzOne/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8226" name="AuzOne/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8226" />
   <project path="hardware/qcom/audio-caf/msm8610" name="AuzOne/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8610" />
@@ -589,15 +587,15 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" remote="aosp" />
-  <!--project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" /-->
-  <project path="prebuilts/ndk" name="AuzOne/android_prebuilt_ndk" groups="pdk" revision="cm-12.1" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" />
+  <!--project path="prebuilts/ndk" name="AuzOne/android_prebuilt_ndk" groups="pdk" revision="cm-12.1" /-->
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="AuzOne/android_system_core" groups="pdk" revision="cm-12.1" />
+  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
