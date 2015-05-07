@@ -634,7 +634,7 @@
  
   <!--Vendor Repos-->
   <project path="vendor/bliss" name="AuzOne/android_vendor_bliss" revision="lp5.1" /> 
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <!--project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" /-->
   
   <!-- AuzOne --> 
   <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="lp5.1" />
