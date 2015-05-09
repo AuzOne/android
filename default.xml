@@ -642,7 +642,7 @@
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
   <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-12.1" />
-  <project name="AuzOne/android_hardware_samsung" path="hardware/samsung" revision="cm-12.1" />
+  <project name="TeamEOS/hardware_samsung" path="hardware/samsung" revision="lp5.1" />
   <!--project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" /-->
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" revision="cm-12.1" />
      
