@@ -226,7 +226,7 @@
   <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" remote="github" revision="n-2.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
+  <project path="external/libcxx" name="AuzOne/android_external_libcxx" groups="pdk" revision="cm-12.1" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libedit" name="platform/external/libedit" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
