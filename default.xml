@@ -377,7 +377,6 @@
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
-  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -488,6 +487,7 @@
   <project path="packages/apps/Contacts" name="TeamBliss-LP/android_packages_apps_Contacts" revision="lp5.1" />
   <project path="packages/apps/ContactsCommon" name="TeamBliss-LP/android_packages_apps_ContactsCommon" revision="lp5.1" />
   <project path="packages/apps/DeskClock" name="TeamBliss-LP/android_packages_apps_DeskClock" revision="lp5.1" />
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/Dialer" name="TeamBliss-LP/android_packages_apps_Dialer" revision="lp5.1" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
@@ -627,7 +627,7 @@
   <project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4412" revision="cm-12.1-master" />
   <project path="external/AndroidSwipeLayout" name="NamelessRom/android_external_AndroidSwipeLayout" revision="n-2.0" />
   <!-- project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" revision="lp5.0" /> -->
-  <project path="packages/apps/KernelAdiutor" name="TeamBliss-LP/android_packages_apps_KernelAdiutor" revision="lp5.1" />
+  <project path="packages/apps/KernelAdiutor" name="SlimSaber/KernelAdiutor" revision="lp5.0" />
   <project name="TeamBliss-LP/android-floating-action-button" path="packages/apps/FloatingActionButton" revision="lp5.1" />
   <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" revision="lp5.1" /> 
   <project path="packages/apps/MonthCalendarWidget" name="AuzOne/android_packages_apps_MonthCalendarWidget" revision="android-5.1" />
