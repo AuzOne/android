@@ -47,7 +47,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="TeamBliss-LP/android_build" revision="lp5.1" >
+  <project path="build" name="AuzOne/android_build" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -365,7 +365,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="TeamBliss-LP/android_frameworks_av" groups="pdk" revision="lp5.1" />
-  <project path="frameworks/base" name="TeamBliss-LP/android_frameworks_base" revision="lp5.1" />
+  <project path="frameworks/base" name="AuzOne/android_frameworks_base" revision="lp5.1" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -471,7 +471,7 @@
   <project path="packages/apps/AudioFX" name="TeamBliss-LP/android_packages_apps_AudioFX" revision="lp5.1" />
   <!--project path="packages/apps/viper4android" name="AuzOne/viper4android_fx" revision="master" /-->
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/BlissOTA" name="TeamBliss-LP/android_packages_apps_BlissOTA" revision="lp5.1" />
+  <project path="packages/apps/AuzoneOTA" name="AuzOne/android_packages_apps_BlissOTA" revision="lp5.1" />
   <project path="packages/apps/Bluetooth" name="TeamBliss-LP/android_packages_apps_Bluetooth" revision="lp5.1" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
@@ -506,7 +506,7 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="TeamBliss-LP/android_packages_apps_Settings" revision="lp5.1" />
+  <project path="packages/apps/Settings" name="AuzOne/android_packages_apps_Settings" revision="lp5.1" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -638,7 +638,7 @@
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <!-- AuzOne --> 
-  <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="lp5.1" />
+  <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="ao" />
   
   <!--Additional Repos-->
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
