@@ -468,7 +468,7 @@
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="prebuilts/ndk" name="AuzOne/android_prebuilt_ndk" revision="cm-12.1" />
-  <!--project path="ndk" name="platform/ndk" remote="aosp" />-->
+  <project path="ndk" name="platform/ndk" remote="aosp" />
   <project path="packages/apps/AudioFX" name="TeamBliss-LP/android_packages_apps_AudioFX" revision="lp5.1" />
   <!--project path="packages/apps/viper4android" name="AuzOne/viper4android_fx" revision="master" /-->
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
@@ -546,7 +546,7 @@
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
-  <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
+  <project path="prebuilts/ndk" name="AuzOne/android_prebuilt_ndk" revision="cm-12.1" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" remote="aosp" />
