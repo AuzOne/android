@@ -490,7 +490,7 @@
   <project path="packages/apps/DeskClock" name="TeamBliss-LP/android_packages_apps_DeskClock" revision="lp5.1" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/Dialer" name="TeamBliss-LP/android_packages_apps_Dialer" revision="lp5.1" />
-  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
+  <project path="packages/apps/Eleven" name="AuzOne/android_packages_apps_Eleven" revision="cm-12.1" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
@@ -514,7 +514,7 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="auzone/android_packages_apps_Trebuchet" revision="cm-12.1" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/BlissStats" name="TeamBliss-LP/android_packages_apps_RomStats" revision="lp5.0" />
