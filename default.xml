@@ -151,7 +151,7 @@
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/dhcpcd" name="temasek/android_external_dhcpcd" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
+  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" remote="github" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
@@ -328,7 +328,7 @@
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="arter97/android_external_sqlite" remote="github" revision="cm-12.1" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" />
