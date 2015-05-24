@@ -84,7 +84,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
-  <project path="external/android-clat" name="LiquidSmooth/android_external_android-clat" groups="pdk-cw-fs" remote="github" revision="5.1" />
+  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" groups="pdk-cw-fs" />
@@ -366,7 +366,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <!--project path="frameworks/av" name="AuzOne/android_frameworks_av" groups="pdk" revision="lp5.1" /-->
-  <project path="frameworks/av" name="TeamBliss-LP/android_frameworks_av" groups="pdk" remote="github" revision="lp5.1" />
+  <project path="frameworks/av" name="TeamBliss-LP/android_frameworks_av" groups="pdk" revision="lp5.1" />
   <project path="frameworks/base" name="AuzOne/android_frameworks_base" revision="lp5.1" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
@@ -401,7 +401,7 @@
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
-  <project path="frameworks/webview" name="TeamBliss-LP/android_frameworks_webview" remote="github" revision="lp5.1" />
+  <project path="frameworks/webview" name="TeamBliss-LP/android_frameworks_webview" revision="lp5.1" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
@@ -501,7 +501,7 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="TeamBliss-LP/android_packages_apps_LockClock" revision="lp5.1" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
+  <project path="packages/apps/Mms" name="AuzOne/android_packages_apps_Mms-caf" revision="cm-12.1" />
   <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" remote="github" revision="lp5.1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="crdroidandroid/android_packages_apps_PackageInstaller" revision="cm-12.0" />
