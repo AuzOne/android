@@ -470,7 +470,7 @@
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
-  <project path="packages/apps/AudioFX" name="AuzOne/android_packages_apps_AudioFX" revision="cm-12.1" />
+  <project path="packages/apps/AudioFX" name="AuzOne/android_packages_apps_AudioFX" revision="lp5.1" />
   <!--project path="packages/apps/viper4android" name="AuzOne/viper4android_fx" revision="master" /-->
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/AuzoneOTA" name="AuzOne/android_packages_apps_BlissOTA" revision="lp5.1" />
