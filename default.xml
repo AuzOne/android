@@ -519,7 +519,7 @@
   <project path="packages/apps/Trebuchet" name="auzone/android_packages_apps_Trebuchet" revision="cm-12.1" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
-  <project path="packages/apps/BlissStats" name="TeamBliss-LP/android_packages_apps_RomStats" revision="lp5.0" />
+  <project path="packages/apps/BlissStats" name="AuzOne/android_packages_apps_RomStats" revision="lp5.1" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="TeamBliss-LP/android_packages_inputmethods_LatinIME" revision="lp5.1" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
