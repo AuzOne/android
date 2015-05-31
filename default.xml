@@ -638,7 +638,7 @@
   <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />       
  
   <!--Vendor Repos-->
-  <project path="vendor/auzone" name="AuzOne/android_vendor_bliss" revision="lp5.1" /> 
+  <project path="vendor/auzone" name="AuzOne/android_vendor_auzone" revision="lp5.1" /> 
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <!-- AuzOne --> 
