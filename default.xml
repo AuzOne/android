@@ -639,7 +639,7 @@
  
   <!--Vendor Repos-->
   <project path="vendor/auzone" name="AuzOne/android_vendor_auzone" revision="lp5.1" /> 
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <project path="vendor/cmsdk" name="AuzOne/cm_platform_sdk" revision="cm-12.1" />
   
   <!-- AuzOne --> 
   <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="ao" />
