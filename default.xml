@@ -51,7 +51,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="AuzOne/android" revision="auzone" />
+  <project path="android" name="AuzOne/android" revision="lp5.1" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -640,7 +640,7 @@
  
   <!--Vendor Repos-->
   <project path="vendor/auzone" name="AuzOne/android_vendor_auzone" revision="lp5.1" /> 
-  <project path="vendor/cmsdk" name="AuzOne/cm_platform_sdk" revision="cm-12.1" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <!-- AuzOne --> 
   <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="ao" />
