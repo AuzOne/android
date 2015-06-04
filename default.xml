@@ -471,7 +471,7 @@
   <!--project path="packages/apps/AudioFX" name="AuzOne/android_packages_apps_AudioFX" revision="lp5.1" /-->
   <project path="packages/apps/viper4android" name="AuzOne/android_packages_apps_Viper4Android" revision="5.1" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/AuzoneOTA" name="AuzOne/android_packages_apps_BlissOTA" revision="lp5.1" />
+  <project path="packages/apps/AuzoneOTA" name="AuzOne/android_packages_apps_AuzoneOTA" revision="lp5.1" />
   <project path="packages/apps/Bluetooth" name="TeamBliss-LP/android_packages_apps_Bluetooth" revision="lp5.1" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="AuzOne/android_packages_apps_Browser" revision="cm-12.1" />
