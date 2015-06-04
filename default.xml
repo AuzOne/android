@@ -43,7 +43,6 @@
           
   <default revision="refs/heads/cm-12.1"
            remote="github"
-           sync-f="true"
            sync-c="true"
            sync-j="4" />
 
@@ -51,10 +50,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="AuzOne/android" revision="lp5.1" />
+  <project path="android" name="AuzOne/android" revision="auzone" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="AuzOne/android_bionic" groups="pdk" revision="cm-12.1" />
+  <project path="art" name="temasek/android_art" groups="pdk" remote="github" revision="cm-12.1" />
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -465,7 +464,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
+  <project path="libcore" name="TeamBliss-LP/android_libcore" remote="github" revision="lp5.1" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <!--project path="packages/apps/AudioFX" name="AuzOne/android_packages_apps_AudioFX" revision="lp5.1" /-->
