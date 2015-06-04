@@ -634,11 +634,11 @@
   <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />
 
   <!--Vendor Repos-->
-  <project path="vendor/bliss" name="TeamBliss-LP/android_vendor_bliss" remote="github" revision="lp5.1" />    
+  <project path="vendor/bliss" name="AuzOne/android_vendor_bliss" revision="lp5.1" />    
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <!-- AuzOne --> 
-  <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="ao" />
+  <project name="AuzOne/android_device_samsung_n7000" path="device/samsung/n7000" revision="cm-12.1" />
   
   <!--Additional Repos-->
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
