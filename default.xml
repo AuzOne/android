@@ -54,7 +54,7 @@
   <project path="android" name="AuzOne/android" revision="lp5.1" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="TeamBliss-LP/android_bionic" groups="pdk" revision="lp5.1" />
+  <project path="bionic" name="AuzOne/android_bionic" groups="pdk" revision="lp5.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -114,7 +114,6 @@
   <project path="external/chromium_org" name="platform/external/chromium_org" remote="aosp" />  
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
-  <!--project path="external/chromium_org/third_party/WebKit" name="AuzOne/android_external_chromium_org_third_party_WebKit" revision="cm-12.1" /-->
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" />
   <project path="external/chromium_org/third_party/boringssl/src" name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" />
@@ -152,7 +151,7 @@
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" remote="github" />
+  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
@@ -332,7 +331,6 @@
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
-  <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
@@ -366,7 +364,6 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <!--project path="frameworks/av" name="AuzOne/android_frameworks_av" groups="pdk" revision="lp5.1" /-->
   <project path="frameworks/av" name="TeamBliss-LP/android_frameworks_av" groups="pdk" revision="lp5.1" />
   <project path="frameworks/base" name="AuzOne/android_frameworks_base" revision="lp5.1" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
@@ -382,7 +379,6 @@
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
-  <project path="frameworks/opt/cards" name="temasek/frameworks_opt_cards" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" />
@@ -403,7 +399,7 @@
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
-  <project path="frameworks/webview" name="TeamBliss-LP/android_frameworks_webview" remote="github" revision="lp5.1" />
+  <project path="frameworks/webview" name="TeamBliss-LP/android_frameworks_webview" revision="lp5.1" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
@@ -469,13 +465,13 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="TeamBliss-LP/android_libcore" revision="lp5.1" />
+  <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <!--project path="packages/apps/AudioFX" name="AuzOne/android_packages_apps_AudioFX" revision="lp5.1" /-->
   <project path="packages/apps/viper4android" name="AuzOne/android_packages_apps_Viper4Android" revision="5.1" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/AuzoneOTA" name="AuzOne/android_packages_apps_AuzoneOTA" revision="lp5.1" />
+  <project path="packages/apps/AuzoneOTA" name="AuzOne/android_packages_apps_BlissOTA" revision="lp5.1" />
   <project path="packages/apps/Bluetooth" name="TeamBliss-LP/android_packages_apps_Bluetooth" revision="lp5.1" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="AuzOne/android_packages_apps_Browser" revision="cm-12.1" />
@@ -531,7 +527,7 @@
   <project path="packages/providers/MediaProvider" name="TeamBliss-LP/android_packages_providers_MediaProvider" revision="lp5.1" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
+  <project path="packages/providers/ThemesProvider" name="AuzOne/android_packages_providers_ThemesProvider" revision="cm-12.1" />
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
@@ -633,14 +629,14 @@
   <project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4412" revision="cm-12.1-master" />
   <project path="external/AndroidSwipeLayout" name="NamelessRom/android_external_AndroidSwipeLayout" revision="n-2.0" />
   <!-- project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" revision="lp5.0" /> -->
-  <project path="packages/apps/KernelAdiutor" name="SlimSaber/KernelAdiutor" revision="lp5.0" />
+  <project path="packages/apps/KernelAdiutor" name="SlimSaber/KernelAdiutor" revision="master" />
   <project name="TeamBliss-LP/android-floating-action-button" path="packages/apps/FloatingActionButton" revision="lp5.1" />
   <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" revision="lp5.1" /> 
   <project path="packages/apps/MonthCalendarWidget" name="AuzOne/android_packages_apps_MonthCalendarWidget" revision="android-5.1" />
   <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />       
  
   <!--Vendor Repos-->
-  <project path="vendor/auzone" name="AuzOne/android_vendor_auzone" revision="lp5.1" /> 
+  <project path="vendor/auzone" name="AuzOne/android_vendor_bliss" revision="lp5.1" /> 
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <!-- AuzOne --> 
@@ -651,24 +647,18 @@
   <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-12.1" />
   <project name="AuzOne/android_hardware_samsung" path="hardware/samsung" revision="cm-12.1" />
-  <!--project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" /-->
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" revision="cm-12.1" />
      
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="Team-Validus/arm-linux-androideabi-4.8" revision="lp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="Team-Validus/arm-linux-androideabi-4.9" revision="lp" /> 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" name="readone_astn/sabermod-arm-linux-androideabi-5.0" remote="bitbucket" revision="master" />
-  
- 
+
   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="AuzOne/Sabermod" revision="arm-eabi-4.9" />
 
-  <!-- arter97-->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" /-->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" /-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="AuzOne/arm-eabi-5.1" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="AuzOne/arm-linux-androideabi-5.1" revision="master" />
   
