@@ -46,11 +46,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="TeamBliss-LP/android_build" revision="lp5.1" >
+  <project path="build" name="AuzOne/android_build_one" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="TeamBliss-LP/android" revision="lp5.1" />
+  <project path="android" name="AuzOne/android" revision="lp5.1" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="TeamBliss-LP/android_bionic" groups="pdk" revision="lp5.1" />
