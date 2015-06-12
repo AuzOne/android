@@ -652,29 +652,29 @@
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" revision="cm-12.1" />
      
   <!-- SABERMOD ROM TOOLCHAINS -->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="Team-Validus/arm-linux-androideabi-4.8" revision="lp" /-->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="Team-Validus/arm-linux-androideabi-4.9" revision="lp" /--> 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="Team-Validus/arm-linux-androideabi-4.8" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="Team-Validus/arm-linux-androideabi-4.9" revision="lp" /> 
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" name="readone_astn/sabermod-arm-linux-androideabi-5.0" remote="bitbucket" revision="master" /-->
   
  
   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" revision="master" /-->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" revision="master" /-->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" revision="master" /-->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="AuzOne/Sabermod" revision="arm-eabi-4.9" /-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="AuzOne/Sabermod" revision="arm-eabi-4.9" />
 
   <!-- arter97-->
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" /-->
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" /-->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="AuzOne/arm-eabi-5.1" revision="master" /-->
-  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="AuzOne/arm-linux-androideabi-5.1" revision="master" /-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="AuzOne/arm-eabi-5.1" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="AuzOne/arm-linux-androideabi-5.1" revision="master" />
   
   <!-- LINARO ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" /> 
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" /> 
 
   <!-- LINARO KERNEL TOOLCHAINS --> 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8--" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" /> 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" /> 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" /> 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="UBERTC/arm-eabi-5.1" remote="bitbucket" revision="master" /> 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bitbucket" revision="master" /> 
