@@ -666,7 +666,7 @@
   <!-- arter97-->
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" /-->
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arter97/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" /-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="AuzOne/arm-eabi-5.1" revision="master" />
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="AuzOne/arm-eabi-5.1" revision="master" /-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="AuzOne/arm-linux-androideabi-5.1" revision="master" />
   
   <!-- LINARO ROM TOOLCHAINS -->
