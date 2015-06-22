@@ -46,14 +46,14 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="AuzOne/android_build_one" revision="lp5.1" >
+  <project path="build" name="TeamBliss-LP/android_build" remote="github" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="android" name="AuzOne/android" revision="lp5.1" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
+  <project path="bionic" name="TeamBliss-LP/android_bionic" groups="pdk" remote="github" revision="lp5.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -87,6 +87,7 @@
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" groups="pdk-cw-fs" />
+  <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" revision="master" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
@@ -268,7 +269,7 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/lzma" name="platform/external/lzma" remote="aosp" />
+  <project path="external/lzma" name="CyanogenMod/android_external_lzma" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" />
   <project path="external/lz4" name="CyanogenMod/android_external_lz4" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" />
@@ -469,7 +470,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="TeamBliss-LP/android_libcore" revision="lp5.1" />
+  <project path="libcore" name="TeamBliss-LP/android_libcore" remote="github" revision="lp5.1" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <!--project path="packages/apps/AudioFX" name="AuzOne/android_packages_apps_AudioFX" revision="lp5.1" /-->
@@ -625,7 +626,7 @@
   <!--TeamBliss repos -->
 
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
-  <project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4412" revision="cm-12.1-master" />
+  <project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4210" revision="cm-12.1-r3p2" />
   <!--project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4210" revision="cm-12.1-r3p2" /-->
   <project path="external/AndroidSwipeLayout" name="NamelessRom/android_external_AndroidSwipeLayout" revision="n-2.0" />
   <project path="packages/apps/KernelAdiutor" name="SlimSaber/KernelAdiutor" revision="master" />
